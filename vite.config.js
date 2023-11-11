@@ -7,6 +7,9 @@ export default defineConfig({
   plugins: [react(), sentryVitePlugin({
     org: "sandyblaze",
     project: "javascript-react"
+  }), sentryVitePlugin({
+    org: "sandyblaze",
+    project: "javascript-react"
   })],
 
   server: {
